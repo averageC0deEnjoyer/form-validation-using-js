@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    text-align: center;
+  }
+  
+  .form-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: aqua;
+  }
+  
+  .input label, .input div {
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  .active {
+    color: red;
+    background-color: white;
+    border-color: red;
+  }
+
+  .valid {
+    color: green;
+    background-color: white;
+    border-color: greenyellow;
+  }
+  
